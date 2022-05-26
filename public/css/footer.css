@@ -1,0 +1,9 @@
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: #323212;
+    padding:100px 50px;
+}
+footer h4 {
+    margin: 0px;
+}

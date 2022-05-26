@@ -1,0 +1,112 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 980px;
+  padding: 0px;
+  margin: 0px;
+  font-size: 18px;
+  font-family: Oxygen ,sans-serif;
+  box-sizing: border-box;
+}
+footer {
+	width: 100%;
+	height: 300px;
+	background-color: #323212;
+	padding:100px 50px;
+}
+footer h4 {
+	margin: 0px;
+}
+header div#header-left {
+	width: 20%;
+	display: inline-block;
+	margin: -2px;
+	background-color: coral;
+	float: left;
+	margin: 0 auto;
+}
+header div#header-left h1 {
+	text-align: center;
+}
+header div#header-right {
+	width: 80%;
+	display: inline-block;
+	margin: -2px;
+	background-color: lightblue;
+	float: right;
+	margin: 0 auto;
+}
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+section#header-underneath {
+	height: 20px;
+	width: 100%;
+	background: linear-gradient(to right, coral, lightblue, lightblue, lightblue);
+}
+section#main-content-section {
+	width: 90%;
+	height: 80%;
+	margin: 0 auto;
+	background-image: url('../images/yellow-background.jfif');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	opacity: 0.6	;
+}
+section#main-content-section::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+section div#login-div{
+
+	width: 40%;
+	margin: 0px auto;
+
+}
+section div#register-div {
+	width: 40%;
+	margin: 20px auto;
+}
+section div#login-div label {
+	padding: 5px;
+	font-weight: bold;
+}
+section div#register-div label {
+		padding: 5px;
+	font-weight: bold;	
+}
+section div#login-div input {
+	padding: 5px;
+	margin: 5px;
+	font-size: 20px;
+	width: 80%;
+}
+section div#register-div input.normal {
+	padding: 5px;
+	margin: 5px;
+	font-size: 20px;
+	width: 80%;
+}
+section div#login-div input#submit, section div#register-div input#submit {
+	padding: 5px;
+	margin: 5px;
+	font-size: 20px;
+	width: 20%;
+}
+.green {
+    transition-property: display;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.red {
+    transition-property: display;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}

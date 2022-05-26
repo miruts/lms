@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.nav-list {
+    display: inline-block;
+    float: right;
+}
+.nav-list li {
+    padding: 10px;
+    display: inline-block;
+}
+.nav-list li:hover {
+    background: coral;
+    color: white;
+
+}
+ul.nav-list  {
+    margin: 0;
+    padding: 0;
+}
+.nav-list a {
+    text-decoration: none;
+    color: inherit;
+}
+nav::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+nav {
+    width: 100%;
+    background: linear-gradient(to right , coral, lightblue, lightblue);
+    border: 1px solid coral;
+    padding-right: 10px;
+}
+.content-section {
+    width: 100%;
+    height: 400px;
+}
+.content-section::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+section .left-div {
+    margin:10px 10px 10px 0;
+    background-color: lightblue;
+    width: 20%;
+    float: left;
+    height: 600px;
+    border: 1px solid coral;
+    display: inline-block;
+}
+section .left-div ul {
+    margin-right: 0px;
+    padding: 0 20px;
+}
+section .left-div ul a{
+    font-weight: 600;
+    width: 100%;
+    display: block;
+}
+section .left-div .header-box {
+    width: 100%;
+    background-color: coral;
+    height: 30px;
+}
+section .left-div ul, section .right-div ul {
+    list-style-type: none;
+}
+section .left-div ul li {
+    width: 100%;
+    display: block;
+    border: 1px solid white;
+    border-bottom: none;
+    padding: 10px;
+    border-radius: 2px;
+    transition-property: background-color, color, border;
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+    transform-origin: center;
+
+
+}
+section .left-div ul li:nth-last-child(1){
+    border-bottom: 1px solid white;
+}
+.selected {
+    font-weight: 900;
+    color: coral;
+}
+section .left-div ul, section .right-div ul:hover {
+}
+section .left-div ul li:hover{
+    background-color: coral;
+    color: white;
+
+}
+section .left-div .content a{
+    list-style-type: none;
+    color: inherit;
+
+}
+section .right-div {
+    margin-top: 10px;
+    background-color: lightblue;
+    width: 79%;
+    height: 600px;
+    border: 1px solid coral;
+    float: right;
+    display: inline-block;
+}
+section .right-div .header-box {
+    width: 100%;
+    background-color: coral;
+    height: 35px;
+}
+section .right-div .header-box h2 {
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+section .right-div .content {
+    width: 100%;
+    height: 100%;
+}
+section .right-div .content::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.right-div .content {
+    width: 100%;
+    height: 94%;
+}
+.home-left-div {
+    border-right: 1px solid coral;
+    padding: 10px;
+    float: left;
+    width: 50%;
+    height: 94%;
+    display: inline;
+}
+.home-left-div h3, .home-right-div h3 {
+    text-decoration: underline;
+    color: darkblue;
+}
+.home-right-div {
+    padding: 10px;
+    width: 50%;
+    height: 94%;
+
+    float: right;
+    display: inline;
+}
+.course-left-div {
+    width: 35%;
+    height: 94%;
+    float: left;
+    border-right: 1px solid coral;
+    padding: 10px;
+    display: inline-block;
+}
+.course-right-div {
+    width: 65%;
+    padding: 10px;
+    height: 94%;
+    float: right;
+    display: inline-block;
+}
+table {
+    border: 1px solid coral;
+    border-collapse: collapse;
+    width: 99%;
+    padding: 5px;
+}
+table td, table th {
+    border: 1px solid coral;
+    border-collapse: collapse;
+    padding: 5px;
+}
